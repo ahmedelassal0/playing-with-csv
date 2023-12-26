@@ -42,7 +42,7 @@ def visualizePrice():
 
 def visualizeAvailabililty():
     plt.boxplot(clean_df['availability_365'])
-    plt.ylabel('days')
+    plt.ylabel('available days')
     plt.show()
 
 
@@ -54,3 +54,10 @@ def visualizePriceRoomType():
 
     # Show the chart
     plt.show()
+
+def visualize():
+    visualizeHostname()
+    visualizeRoomType()
+    visualizePrice()
+    visualizeAvailabililty()
+    visualizePriceRoomType()
