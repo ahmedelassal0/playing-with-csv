@@ -1,1411 +1,391 @@
 |--- room_type <= 0.50
-|   |--- host_id <= 41701346.00
-|   |   |--- minimum_nights <= 3.50
-|   |   |   |--- availability_365 <= 75.50
-|   |   |   |   |--- availability_365 <= 7.50
-|   |   |   |   |   |--- reviews_per_month <= 0.02
-|   |   |   |   |   |   |--- host_id <= 2706086.00
-|   |   |   |   |   |   |   |--- reviews_per_month <= inf
-|   |   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |   |   |   |--- reviews_per_month >  inf
-|   |   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |   |   |--- host_id >  2706086.00
-|   |   |   |   |   |   |   |--- host_id <= 6158992.00
-|   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.01
-|   |   |   |   |   |   |   |   |   |--- class: 75
-|   |   |   |   |   |   |   |   |--- reviews_per_month >  0.01
-|   |   |   |   |   |   |   |   |   |--- name <= 780.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 200
-|   |   |   |   |   |   |   |   |   |--- name >  780.50
-|   |   |   |   |   |   |   |   |   |   |--- name <= 1371.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 260
-|   |   |   |   |   |   |   |   |   |   |--- name >  1371.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 19
-|   |   |   |   |   |   |   |--- host_id >  6158992.00
-|   |   |   |   |   |   |   |   |--- name <= 1610.00
-|   |   |   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |   |   |   |   |--- name >  1610.00
-|   |   |   |   |   |   |   |   |   |--- name <= 6358.50
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.01
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.01
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 250
-|   |   |   |   |   |   |   |   |   |--- name >  6358.50
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 35796892.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  35796892.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |   |--- reviews_per_month >  0.02
-|   |   |   |   |   |   |--- availability_365 <= 5.50
-|   |   |   |   |   |   |   |--- name <= 20796.50
-|   |   |   |   |   |   |   |   |--- name <= 20754.00
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.23
-|   |   |   |   |   |   |   |   |   |   |--- name <= 7401.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 18
-|   |   |   |   |   |   |   |   |   |   |--- name >  7401.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 19
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.23
-|   |   |   |   |   |   |   |   |   |   |--- name <= 2917.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
-|   |   |   |   |   |   |   |   |   |   |--- name >  2917.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 23
-|   |   |   |   |   |   |   |   |--- name >  20754.00
-|   |   |   |   |   |   |   |   |   |--- class: 200
-|   |   |   |   |   |   |   |--- name >  20796.50
-|   |   |   |   |   |   |   |   |--- host_id <= 5139293.00
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.76
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 4008567.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 24
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  4008567.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.76
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 2.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 140
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews >  2.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
-|   |   |   |   |   |   |   |   |--- host_id >  5139293.00
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.96
-|   |   |   |   |   |   |   |   |   |   |--- name <= 21438.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
-|   |   |   |   |   |   |   |   |   |   |--- name >  21438.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 22
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.96
-|   |   |   |   |   |   |   |   |   |   |--- name <= 42391.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
-|   |   |   |   |   |   |   |   |   |   |--- name >  42391.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
-|   |   |   |   |   |   |--- availability_365 >  5.50
-|   |   |   |   |   |   |   |--- number_of_reviews <= 59.00
-|   |   |   |   |   |   |   |   |--- number_of_reviews <= 36.00
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 1.11
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 4039329.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  4039329.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  1.11
-|   |   |   |   |   |   |   |   |   |   |--- name <= 35382.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
-|   |   |   |   |   |   |   |   |   |   |--- name >  35382.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |--- number_of_reviews >  36.00
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 46.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 130
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews >  46.00
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 4573081.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  4573081.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 196
-|   |   |   |   |   |   |   |--- number_of_reviews >  59.00
-|   |   |   |   |   |   |   |   |--- availability_365 <= 6.50
-|   |   |   |   |   |   |   |   |   |--- name <= 27395.50
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 3.14
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 100
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month >  3.14
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 185
-|   |   |   |   |   |   |   |   |   |--- name >  27395.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 84
-|   |   |   |   |   |   |   |   |--- availability_365 >  6.50
-|   |   |   |   |   |   |   |   |   |--- host_id <= 3096396.00
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 2819494.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 100
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  2819494.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 40
-|   |   |   |   |   |   |   |   |   |--- host_id >  3096396.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 170
-|   |   |   |   |--- availability_365 >  7.50
-|   |   |   |   |   |--- class: 150
-|   |   |   |--- availability_365 >  75.50
-|   |   |   |   |--- class: 150
-|   |   |--- minimum_nights >  3.50
-|   |   |   |--- availability_365 <= 342.50
-|   |   |   |   |--- availability_365 <= 114.50
-|   |   |   |   |   |--- availability_365 <= 6.50
-|   |   |   |   |   |   |--- number_of_reviews <= 6.50
-|   |   |   |   |   |   |   |--- reviews_per_month <= 0.16
-|   |   |   |   |   |   |   |   |--- minimum_nights <= 4.50
-|   |   |   |   |   |   |   |   |   |--- class: 200
-|   |   |   |   |   |   |   |   |--- minimum_nights >  4.50
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 1.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews >  1.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |   |   |   |--- reviews_per_month >  0.16
-|   |   |   |   |   |   |   |   |--- host_id <= 908119.50
-|   |   |   |   |   |   |   |   |   |--- name <= 3654.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |   |   |   |   |   |--- name >  3654.00
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights <= 4.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 45
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights >  4.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
-|   |   |   |   |   |   |   |   |--- host_id >  908119.50
-|   |   |   |   |   |   |   |   |   |--- minimum_nights <= 6.50
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.21
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 125
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.21
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 20
-|   |   |   |   |   |   |   |   |   |--- minimum_nights >  6.50
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 <= 3.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 >  3.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |--- number_of_reviews >  6.50
-|   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |   |--- availability_365 >  6.50
-|   |   |   |   |   |   |--- host_id <= 53923.50
-|   |   |   |   |   |   |   |--- reviews_per_month <= 0.37
-|   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.16
-|   |   |   |   |   |   |   |   |   |--- availability_365 <= 13.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 175
-|   |   |   |   |   |   |   |   |   |--- availability_365 >  13.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 90
-|   |   |   |   |   |   |   |   |--- reviews_per_month >  0.16
-|   |   |   |   |   |   |   |   |   |--- class: 175
-|   |   |   |   |   |   |   |--- reviews_per_month >  0.37
-|   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.77
-|   |   |   |   |   |   |   |   |   |--- host_id <= 32262.00
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |   |   |   |   |   |--- host_id >  32262.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |   |   |   |   |--- reviews_per_month >  0.77
-|   |   |   |   |   |   |   |   |   |--- class: 200
-|   |   |   |   |   |   |--- host_id >  53923.50
-|   |   |   |   |   |   |   |--- availability_365 <= 110.50
-|   |   |   |   |   |   |   |   |--- minimum_nights <= 11.50
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 27.50
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights <= 5.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights >  5.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 19
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews >  27.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |   |   |   |   |--- minimum_nights >  11.50
-|   |   |   |   |   |   |   |   |   |--- host_id <= 4014962.00
-|   |   |   |   |   |   |   |   |   |   |--- name <= 18832.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
-|   |   |   |   |   |   |   |   |   |   |--- name >  18832.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
-|   |   |   |   |   |   |   |   |   |--- host_id >  4014962.00
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights <= 17.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights >  17.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
-|   |   |   |   |   |   |   |--- availability_365 >  110.50
-|   |   |   |   |   |   |   |   |--- minimum_nights <= 12.00
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 2.39
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 1617254.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 115
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  1617254.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  2.39
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights <= 4.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 119
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights >  4.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 365
-|   |   |   |   |   |   |   |   |--- minimum_nights >  12.00
-|   |   |   |   |   |   |   |   |   |--- availability_365 <= 111.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 100
-|   |   |   |   |   |   |   |   |   |--- availability_365 >  111.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |--- availability_365 >  114.50
-|   |   |   |   |   |--- reviews_per_month <= 0.74
-|   |   |   |   |   |   |--- availability_365 <= 310.50
-|   |   |   |   |   |   |   |--- number_of_reviews <= 9.50
-|   |   |   |   |   |   |   |   |--- number_of_reviews <= 1.50
-|   |   |   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |   |   |   |   |--- number_of_reviews >  1.50
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.05
-|   |   |   |   |   |   |   |   |   |   |--- class: 130
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.05
-|   |   |   |   |   |   |   |   |   |   |--- name <= 160.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 300
-|   |   |   |   |   |   |   |   |   |   |--- name >  160.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |   |   |   |--- number_of_reviews >  9.50
-|   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.15
-|   |   |   |   |   |   |   |   |   |--- class: 79
-|   |   |   |   |   |   |   |   |--- reviews_per_month >  0.15
-|   |   |   |   |   |   |   |   |   |--- class: 200
-|   |   |   |   |   |   |--- availability_365 >  310.50
-|   |   |   |   |   |   |   |--- name <= 1374.50
-|   |   |   |   |   |   |   |   |--- class: 115
-|   |   |   |   |   |   |   |--- name >  1374.50
-|   |   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |   |--- reviews_per_month >  0.74
-|   |   |   |   |   |   |--- host_id <= 9035942.00
-|   |   |   |   |   |   |   |--- number_of_reviews <= 0.50
-|   |   |   |   |   |   |   |   |--- class: 250
-|   |   |   |   |   |   |   |--- number_of_reviews >  0.50
-|   |   |   |   |   |   |   |   |--- minimum_nights <= 5.50
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 1.25
-|   |   |   |   |   |   |   |   |   |   |--- class: 250
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  1.25
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 <= 119.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 160
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 >  119.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 135
-|   |   |   |   |   |   |   |   |--- minimum_nights >  5.50
-|   |   |   |   |   |   |   |   |   |--- host_id <= 1155138.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 100
-|   |   |   |   |   |   |   |   |   |--- host_id >  1155138.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 135
-|   |   |   |   |   |   |--- host_id >  9035942.00
-|   |   |   |   |   |   |   |--- number_of_reviews <= 1.50
-|   |   |   |   |   |   |   |   |--- availability_365 <= 139.50
-|   |   |   |   |   |   |   |   |   |--- class: 97
-|   |   |   |   |   |   |   |   |--- availability_365 >  139.50
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 239
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews >  0.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 75
-|   |   |   |   |   |   |   |--- number_of_reviews >  1.50
-|   |   |   |   |   |   |   |   |--- number_of_reviews <= 3.50
-|   |   |   |   |   |   |   |   |   |--- class: 99
-|   |   |   |   |   |   |   |   |--- number_of_reviews >  3.50
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.75
-|   |   |   |   |   |   |   |   |   |   |--- class: 163
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.75
-|   |   |   |   |   |   |   |   |   |   |--- class: 190
-|   |   |   |--- availability_365 >  342.50
-|   |   |   |   |--- host_id <= 15872547.50
-|   |   |   |   |   |--- minimum_nights <= 14.50
-|   |   |   |   |   |   |--- minimum_nights <= 5.50
-|   |   |   |   |   |   |   |--- minimum_nights <= 4.50
-|   |   |   |   |   |   |   |   |--- number_of_reviews <= 9.50
-|   |   |   |   |   |   |   |   |   |--- availability_365 <= 348.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |   |   |   |   |   |--- availability_365 >  348.00
-|   |   |   |   |   |   |   |   |   |   |--- name <= 20453.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 300
-|   |   |   |   |   |   |   |   |   |   |--- name >  20453.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |--- number_of_reviews >  9.50
-|   |   |   |   |   |   |   |   |   |--- host_id <= 801819.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 110
-|   |   |   |   |   |   |   |   |   |--- host_id >  801819.00
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.22
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 225
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.22
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
-|   |   |   |   |   |   |   |--- minimum_nights >  4.50
-|   |   |   |   |   |   |   |   |--- availability_365 <= 364.50
-|   |   |   |   |   |   |   |   |   |--- availability_365 <= 358.00
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 <= 348.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 115
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 >  348.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 220
-|   |   |   |   |   |   |   |   |   |--- availability_365 >  358.00
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 4581253.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  4581253.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
-|   |   |   |   |   |   |   |   |--- availability_365 >  364.50
-|   |   |   |   |   |   |   |   |   |--- name <= 44155.00
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 350
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 249
-|   |   |   |   |   |   |   |   |   |--- name >  44155.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 300
-|   |   |   |   |   |   |--- minimum_nights >  5.50
-|   |   |   |   |   |   |   |--- minimum_nights <= 7.50
-|   |   |   |   |   |   |   |   |--- availability_365 <= 363.50
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 1.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 200
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews >  1.00
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights <= 6.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 120
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights >  6.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |--- availability_365 >  363.50
-|   |   |   |   |   |   |   |   |   |--- name <= 32822.00
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 33.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews >  33.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 147
-|   |   |   |   |   |   |   |   |   |--- name >  32822.00
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 387878.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 400
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  387878.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |--- minimum_nights >  7.50
-|   |   |   |   |   |   |   |   |--- name <= 45958.50
-|   |   |   |   |   |   |   |   |   |--- name <= 6409.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 350
-|   |   |   |   |   |   |   |   |   |--- name >  6409.50
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 175
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
-|   |   |   |   |   |   |   |   |--- name >  45958.50
-|   |   |   |   |   |   |   |   |   |--- class: 300
-|   |   |   |   |   |--- minimum_nights >  14.50
-|   |   |   |   |   |   |--- host_id <= 13008312.50
-|   |   |   |   |   |   |   |--- number_of_reviews <= 2.50
-|   |   |   |   |   |   |   |   |--- host_id <= 1767065.00
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.04
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.02
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.02
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 130
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.04
-|   |   |   |   |   |   |   |   |   |   |--- class: 87
-|   |   |   |   |   |   |   |   |--- host_id >  1767065.00
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.04
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights <= 29.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights >  29.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.04
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.06
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 149
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.06
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
-|   |   |   |   |   |   |   |--- number_of_reviews >  2.50
-|   |   |   |   |   |   |   |   |--- class: 87
-|   |   |   |   |   |   |--- host_id >  13008312.50
-|   |   |   |   |   |   |   |--- availability_365 <= 343.50
-|   |   |   |   |   |   |   |   |--- class: 225
-|   |   |   |   |   |   |   |--- availability_365 >  343.50
-|   |   |   |   |   |   |   |   |--- class: 200
-|   |   |   |   |--- host_id >  15872547.50
-|   |   |   |   |   |--- class: 239
-|   |--- host_id >  41701346.00
-|   |   |--- availability_365 <= 53.50
+|   |--- availability_365 <= 0.50
+|   |   |--- name <= 19402.50
 |   |   |   |--- number_of_reviews <= 0.50
 |   |   |   |   |--- class: 150
 |   |   |   |--- number_of_reviews >  0.50
-|   |   |   |   |--- minimum_nights <= 2.50
-|   |   |   |   |   |--- number_of_reviews <= 3.50
+|   |   |   |   |--- minimum_nights <= 3.50
+|   |   |   |   |   |--- minimum_nights <= 1.50
 |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |   |--- number_of_reviews >  3.50
-|   |   |   |   |   |   |--- number_of_reviews <= 4.50
+|   |   |   |   |   |--- minimum_nights >  1.50
+|   |   |   |   |   |   |--- number_of_reviews <= 2.50
+|   |   |   |   |   |   |   |--- class: 150
+|   |   |   |   |   |   |--- number_of_reviews >  2.50
+|   |   |   |   |   |   |   |--- host_id <= 198279.00
+|   |   |   |   |   |   |   |   |--- class: 250
+|   |   |   |   |   |   |   |--- host_id >  198279.00
+|   |   |   |   |   |   |   |   |--- class: 150
+|   |   |   |   |--- minimum_nights >  3.50
+|   |   |   |   |   |--- reviews_per_month <= 0.01
+|   |   |   |   |   |   |--- class: 90
+|   |   |   |   |   |--- reviews_per_month >  0.01
+|   |   |   |   |   |   |--- class: 150
+|   |   |--- name >  19402.50
+|   |   |   |--- class: 150
+|   |--- availability_365 >  0.50
+|   |   |--- availability_365 <= 162.50
+|   |   |   |--- class: 150
+|   |   |--- availability_365 >  162.50
+|   |   |   |--- reviews_per_month <= 11.51
+|   |   |   |   |--- reviews_per_month <= 2.64
+|   |   |   |   |   |--- minimum_nights <= 3.50
+|   |   |   |   |   |   |--- minimum_nights <= 1.50
 |   |   |   |   |   |   |   |--- class: 200
-|   |   |   |   |   |   |--- number_of_reviews >  4.50
-|   |   |   |   |   |   |   |--- reviews_per_month <= 0.15
-|   |   |   |   |   |   |   |   |--- class: 100
-|   |   |   |   |   |   |   |--- reviews_per_month >  0.15
-|   |   |   |   |   |   |   |   |--- minimum_nights <= 1.50
-|   |   |   |   |   |   |   |   |   |--- class: 100
-|   |   |   |   |   |   |   |   |--- minimum_nights >  1.50
-|   |   |   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |--- minimum_nights >  2.50
-|   |   |   |   |   |--- number_of_reviews <= 1.50
+|   |   |   |   |   |   |--- minimum_nights >  1.50
+|   |   |   |   |   |   |   |--- number_of_reviews <= 1.50
+|   |   |   |   |   |   |   |   |--- class: 125
+|   |   |   |   |   |   |   |--- number_of_reviews >  1.50
+|   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.20
+|   |   |   |   |   |   |   |   |   |--- class: 200
+|   |   |   |   |   |   |   |   |--- reviews_per_month >  0.20
+|   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 250
+|   |   |   |   |   |   |   |   |   |--- number_of_reviews >  2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 150
+|   |   |   |   |   |--- minimum_nights >  3.50
+|   |   |   |   |   |   |--- number_of_reviews <= 1.50
+|   |   |   |   |   |   |   |--- class: 150
+|   |   |   |   |   |   |--- number_of_reviews >  1.50
+|   |   |   |   |   |   |   |--- number_of_reviews <= 2.50
+|   |   |   |   |   |   |   |   |--- class: 150
+|   |   |   |   |   |   |   |--- number_of_reviews >  2.50
+|   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.09
+|   |   |   |   |   |   |   |   |   |--- class: 129
+|   |   |   |   |   |   |   |   |--- reviews_per_month >  0.09
+|   |   |   |   |   |   |   |   |   |--- host_id <= 32576.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 79
+|   |   |   |   |   |   |   |   |   |--- host_id >  32576.50
+|   |   |   |   |   |   |   |   |   |   |--- minimum_nights <= 4.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 150
+|   |   |   |   |   |   |   |   |   |   |--- minimum_nights >  4.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 150
+|   |   |   |   |--- reviews_per_month >  2.64
+|   |   |   |   |   |--- name <= 166.50
+|   |   |   |   |   |   |--- class: 140
+|   |   |   |   |   |--- name >  166.50
 |   |   |   |   |   |   |--- class: 150
+|   |   |   |--- reviews_per_month >  11.51
+|   |   |   |   |--- number_of_reviews <= 6.00
+|   |   |   |   |   |--- class: 200
+|   |   |   |   |--- number_of_reviews >  6.00
+|   |   |   |   |   |--- class: 320
+|--- room_type >  0.50
+|   |--- availability_365 <= 357.50
+|   |   |--- number_of_reviews <= 2.50
+|   |   |   |--- minimum_nights <= 1.50
+|   |   |   |   |--- reviews_per_month <= 0.12
+|   |   |   |   |   |--- class: 50
+|   |   |   |   |--- reviews_per_month >  0.12
+|   |   |   |   |   |--- host_id <= 21176791.00
+|   |   |   |   |   |   |--- reviews_per_month <= 0.18
+|   |   |   |   |   |   |   |--- class: 70
+|   |   |   |   |   |   |--- reviews_per_month >  0.18
+|   |   |   |   |   |   |   |--- reviews_per_month <= 0.20
+|   |   |   |   |   |   |   |   |--- class: 150
+|   |   |   |   |   |   |   |--- reviews_per_month >  0.20
+|   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.49
+|   |   |   |   |   |   |   |   |   |--- class: 40
+|   |   |   |   |   |   |   |   |--- reviews_per_month >  0.49
+|   |   |   |   |   |   |   |   |   |--- name <= 1248.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 60
+|   |   |   |   |   |   |   |   |   |--- name >  1248.00
+|   |   |   |   |   |   |   |   |   |   |--- name <= 3698.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- name >  3698.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |--- host_id >  21176791.00
+|   |   |   |   |   |   |--- availability_365 <= 229.50
+|   |   |   |   |   |   |   |--- name <= 7951.00
+|   |   |   |   |   |   |   |   |--- reviews_per_month <= 1.02
+|   |   |   |   |   |   |   |   |   |--- host_id <= 33192524.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 65
+|   |   |   |   |   |   |   |   |   |--- host_id >  33192524.00
+|   |   |   |   |   |   |   |   |   |   |--- host_id <= 254407552.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- host_id >  254407552.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 69
+|   |   |   |   |   |   |   |   |--- reviews_per_month >  1.02
+|   |   |   |   |   |   |   |   |   |--- name <= 7271.50
+|   |   |   |   |   |   |   |   |   |   |--- name <= 688.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 100
+|   |   |   |   |   |   |   |   |   |   |--- name >  688.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- name >  7271.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 60
+|   |   |   |   |   |   |   |--- name >  7951.00
+|   |   |   |   |   |   |   |   |--- class: 100
+|   |   |   |   |   |   |--- availability_365 >  229.50
+|   |   |   |   |   |   |   |--- name <= 17406.50
+|   |   |   |   |   |   |   |   |--- class: 100
+|   |   |   |   |   |   |   |--- name >  17406.50
+|   |   |   |   |   |   |   |   |--- host_id <= 259808840.00
+|   |   |   |   |   |   |   |   |   |--- class: 100
+|   |   |   |   |   |   |   |   |--- host_id >  259808840.00
+|   |   |   |   |   |   |   |   |   |--- availability_365 <= 297.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 100
+|   |   |   |   |   |   |   |   |   |--- availability_365 >  297.50
+|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 100
+|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 100
+|   |   |   |--- minimum_nights >  1.50
+|   |   |   |   |--- class: 50
+|   |   |--- number_of_reviews >  2.50
+|   |   |   |--- reviews_per_month <= 2.99
+|   |   |   |   |--- number_of_reviews <= 31.50
+|   |   |   |   |   |--- availability_365 <= 1.50
+|   |   |   |   |   |   |--- reviews_per_month <= 0.09
+|   |   |   |   |   |   |   |--- class: 75
+|   |   |   |   |   |   |--- reviews_per_month >  0.09
+|   |   |   |   |   |   |   |--- availability_365 <= 0.50
+|   |   |   |   |   |   |   |   |--- class: 50
+|   |   |   |   |   |   |   |--- availability_365 >  0.50
+|   |   |   |   |   |   |   |   |--- class: 50
+|   |   |   |   |   |--- availability_365 >  1.50
+|   |   |   |   |   |   |--- minimum_nights <= 1.50
+|   |   |   |   |   |   |   |--- class: 50
+|   |   |   |   |   |   |--- minimum_nights >  1.50
+|   |   |   |   |   |   |   |--- number_of_reviews <= 3.50
+|   |   |   |   |   |   |   |   |--- class: 50
+|   |   |   |   |   |   |   |--- number_of_reviews >  3.50
+|   |   |   |   |   |   |   |   |--- availability_365 <= 5.50
+|   |   |   |   |   |   |   |   |   |--- class: 50
+|   |   |   |   |   |   |   |   |--- availability_365 >  5.50
+|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 55
+|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.07
+|   |   |   |   |   |   |   |   |   |   |--- host_id <= 21837.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 60
+|   |   |   |   |   |   |   |   |   |   |--- host_id >  21837.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 65
+|   |   |   |   |--- number_of_reviews >  31.50
+|   |   |   |   |   |--- name <= 8.50
+|   |   |   |   |   |   |--- class: 37
+|   |   |   |   |   |--- name >  8.50
+|   |   |   |   |   |   |--- class: 60
+|   |   |   |--- reviews_per_month >  2.99
+|   |   |   |   |--- class: 50
+|   |--- availability_365 >  357.50
+|   |   |--- minimum_nights <= 1.50
+|   |   |   |--- number_of_reviews <= 0.50
+|   |   |   |   |--- class: 100
+|   |   |   |--- number_of_reviews >  0.50
+|   |   |   |   |--- availability_365 <= 364.50
+|   |   |   |   |   |--- name <= 23397.50
+|   |   |   |   |   |   |--- class: 50
+|   |   |   |   |   |--- name >  23397.50
+|   |   |   |   |   |   |--- class: 75
+|   |   |   |   |--- availability_365 >  364.50
+|   |   |   |   |   |--- number_of_reviews <= 1.50
+|   |   |   |   |   |   |--- class: 75
 |   |   |   |   |   |--- number_of_reviews >  1.50
 |   |   |   |   |   |   |--- number_of_reviews <= 2.50
-|   |   |   |   |   |   |   |--- class: 125
+|   |   |   |   |   |   |   |--- class: 50
 |   |   |   |   |   |   |--- number_of_reviews >  2.50
-|   |   |   |   |   |   |   |--- reviews_per_month <= 0.09
-|   |   |   |   |   |   |   |   |--- class: 80
-|   |   |   |   |   |   |   |--- reviews_per_month >  0.09
-|   |   |   |   |   |   |   |   |--- number_of_reviews <= 3.50
-|   |   |   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |   |   |   |   |--- number_of_reviews >  3.50
-|   |   |   |   |   |   |   |   |   |--- class: 150
-|   |   |--- availability_365 >  53.50
-|   |   |   |--- name <= 387.50
-|   |   |   |   |--- name <= 350.00
-|   |   |   |   |   |--- reviews_per_month <= 0.32
-|   |   |   |   |   |   |--- availability_365 <= 246.50
-|   |   |   |   |   |   |   |--- reviews_per_month <= 1.77
-|   |   |   |   |   |   |   |   |--- class: 225
-|   |   |   |   |   |   |   |--- reviews_per_month >  1.77
-|   |   |   |   |   |   |   |   |--- reviews_per_month <= 1.77
-|   |   |   |   |   |   |   |   |   |--- class: 100
-|   |   |   |   |   |   |   |   |--- reviews_per_month >  1.77
-|   |   |   |   |   |   |   |   |   |--- class: 119
-|   |   |   |   |   |   |--- availability_365 >  246.50
-|   |   |   |   |   |   |   |--- availability_365 <= 283.50
-|   |   |   |   |   |   |   |   |--- class: 714
-|   |   |   |   |   |   |   |--- availability_365 >  283.50
-|   |   |   |   |   |   |   |   |--- class: 129
-|   |   |   |   |   |--- reviews_per_month >  0.32
-|   |   |   |   |   |   |--- number_of_reviews <= 26.50
-|   |   |   |   |   |   |   |--- reviews_per_month <= 5.08
-|   |   |   |   |   |   |   |   |--- minimum_nights <= 1.50
-|   |   |   |   |   |   |   |   |   |--- class: 100
-|   |   |   |   |   |   |   |   |--- minimum_nights >  1.50
-|   |   |   |   |   |   |   |   |   |--- host_id <= 226267224.00
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 66606340.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  66606340.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
-|   |   |   |   |   |   |   |   |   |--- host_id >  226267224.00
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 7.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews >  7.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 120
-|   |   |   |   |   |   |   |--- reviews_per_month >  5.08
-|   |   |   |   |   |   |   |   |--- number_of_reviews <= 22.00
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 18.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 165
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews >  18.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 180
-|   |   |   |   |   |   |   |   |--- number_of_reviews >  22.00
-|   |   |   |   |   |   |   |   |   |--- class: 165
-|   |   |   |   |   |   |--- number_of_reviews >  26.50
-|   |   |   |   |   |   |   |--- host_id <= 137819048.00
-|   |   |   |   |   |   |   |   |--- availability_365 <= 305.00
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 60.50
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 58.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews >  58.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 185
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews >  60.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 165
-|   |   |   |   |   |   |   |   |--- availability_365 >  305.00
-|   |   |   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |   |   |   |--- host_id >  137819048.00
-|   |   |   |   |   |   |   |   |--- minimum_nights <= 2.50
-|   |   |   |   |   |   |   |   |   |--- availability_365 <= 276.00
-|   |   |   |   |   |   |   |   |   |   |--- name <= 162.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- name >  162.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 350
-|   |   |   |   |   |   |   |   |   |--- availability_365 >  276.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 85
-|   |   |   |   |   |   |   |   |--- minimum_nights >  2.50
-|   |   |   |   |   |   |   |   |   |--- availability_365 <= 226.00
-|   |   |   |   |   |   |   |   |   |   |--- name <= 326.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 265
-|   |   |   |   |   |   |   |   |   |   |--- name >  326.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 200
-|   |   |   |   |   |   |   |   |   |--- availability_365 >  226.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 65
-|   |   |   |   |--- name >  350.00
-|   |   |   |   |   |--- class: 675
-|   |   |   |--- name >  387.50
-|   |   |   |   |--- host_id <= 213611864.00
-|   |   |   |   |   |--- host_id <= 131842976.00
-|   |   |   |   |   |   |--- number_of_reviews <= 35.50
-|   |   |   |   |   |   |   |--- reviews_per_month <= 0.52
-|   |   |   |   |   |   |   |   |--- host_id <= 45673992.00
-|   |   |   |   |   |   |   |   |   |--- class: 135
-|   |   |   |   |   |   |   |   |--- host_id >  45673992.00
-|   |   |   |   |   |   |   |   |   |--- host_id <= 46001050.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 795
-|   |   |   |   |   |   |   |   |   |--- host_id >  46001050.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |   |   |   |--- reviews_per_month >  0.52
-|   |   |   |   |   |   |   |   |--- availability_365 <= 95.50
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.69
-|   |   |   |   |   |   |   |   |   |   |--- class: 199
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.69
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights <= 2.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights >  2.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
-|   |   |   |   |   |   |   |   |--- availability_365 >  95.50
-|   |   |   |   |   |   |   |   |   |--- host_id <= 107262444.00
-|   |   |   |   |   |   |   |   |   |   |--- name <= 9941.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
-|   |   |   |   |   |   |   |   |   |   |--- name >  9941.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
-|   |   |   |   |   |   |   |   |   |--- host_id >  107262444.00
-|   |   |   |   |   |   |   |   |   |   |--- name <= 775.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 190
-|   |   |   |   |   |   |   |   |   |   |--- name >  775.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |--- number_of_reviews >  35.50
-|   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |   |--- host_id >  131842976.00
-|   |   |   |   |   |   |--- number_of_reviews <= 50.50
-|   |   |   |   |   |   |   |--- minimum_nights <= 3.50
-|   |   |   |   |   |   |   |   |--- minimum_nights <= 1.50
-|   |   |   |   |   |   |   |   |   |--- availability_365 <= 256.00
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 <= 174.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 >  174.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |   |   |   |   |   |--- availability_365 >  256.00
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 2.92
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month >  2.92
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
-|   |   |   |   |   |   |   |   |--- minimum_nights >  1.50
-|   |   |   |   |   |   |   |   |   |--- host_id <= 174085496.00
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 1.26
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month >  1.26
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
-|   |   |   |   |   |   |   |   |   |--- host_id >  174085496.00
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 211470040.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 23
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  211470040.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
-|   |   |   |   |   |   |   |--- minimum_nights >  3.50
-|   |   |   |   |   |   |   |   |--- availability_365 <= 334.50
-|   |   |   |   |   |   |   |   |   |--- host_id <= 162345936.00
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 650
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
-|   |   |   |   |   |   |   |   |   |--- host_id >  162345936.00
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 184035000.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  184035000.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
-|   |   |   |   |   |   |   |   |--- availability_365 >  334.50
-|   |   |   |   |   |   |   |   |   |--- name <= 1446.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 200
-|   |   |   |   |   |   |   |   |   |--- name >  1446.50
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 <= 348.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 >  348.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
-|   |   |   |   |   |   |--- number_of_reviews >  50.50
-|   |   |   |   |   |   |   |--- minimum_nights <= 2.50
-|   |   |   |   |   |   |   |   |--- minimum_nights <= 1.50
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 94.50
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 62.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 60
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews >  62.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews >  94.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 120
-|   |   |   |   |   |   |   |   |--- minimum_nights >  1.50
-|   |   |   |   |   |   |   |   |   |--- class: 80
-|   |   |   |   |   |   |   |--- minimum_nights >  2.50
-|   |   |   |   |   |   |   |   |--- minimum_nights <= 3.50
-|   |   |   |   |   |   |   |   |   |--- class: 165
-|   |   |   |   |   |   |   |   |--- minimum_nights >  3.50
-|   |   |   |   |   |   |   |   |   |--- class: 80
-|   |   |   |   |--- host_id >  213611864.00
-|   |   |   |   |   |--- class: 200
-|--- room_type >  0.50
-|   |--- host_id <= 260613952.00
-|   |   |--- number_of_reviews <= 1.50
-|   |   |   |--- minimum_nights <= 1.50
-|   |   |   |   |--- name <= 3068.00
-|   |   |   |   |   |--- name <= 757.50
-|   |   |   |   |   |   |--- host_id <= 9320296.50
-|   |   |   |   |   |   |   |--- reviews_per_month <= 0.05
-|   |   |   |   |   |   |   |   |--- class: 65
-|   |   |   |   |   |   |   |--- reviews_per_month >  0.05
-|   |   |   |   |   |   |   |   |--- number_of_reviews <= 0.50
-|   |   |   |   |   |   |   |   |   |--- class: 40
-|   |   |   |   |   |   |   |   |--- number_of_reviews >  0.50
-|   |   |   |   |   |   |   |   |   |--- class: 125
-|   |   |   |   |   |   |--- host_id >  9320296.50
-|   |   |   |   |   |   |   |--- availability_365 <= 35.50
-|   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.02
-|   |   |   |   |   |   |   |   |   |--- class: 51
-|   |   |   |   |   |   |   |   |--- reviews_per_month >  0.02
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.02
-|   |   |   |   |   |   |   |   |   |   |--- class: 55
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.02
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 18849072.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 60
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  18849072.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 60
-|   |   |   |   |   |   |   |--- availability_365 >  35.50
-|   |   |   |   |   |   |   |   |--- class: 100
-|   |   |   |   |   |--- name >  757.50
-|   |   |   |   |   |   |--- room_type <= 1.50
-|   |   |   |   |   |   |   |--- name <= 870.00
-|   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.04
-|   |   |   |   |   |   |   |   |   |--- class: 50
-|   |   |   |   |   |   |   |   |--- reviews_per_month >  0.04
-|   |   |   |   |   |   |   |   |   |--- name <= 776.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 70
-|   |   |   |   |   |   |   |   |   |--- name >  776.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 100
-|   |   |   |   |   |   |   |--- name >  870.00
-|   |   |   |   |   |   |   |   |--- name <= 1076.00
-|   |   |   |   |   |   |   |   |   |--- host_id <= 7528481.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 130
-|   |   |   |   |   |   |   |   |   |--- host_id >  7528481.50
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 <= 10.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 >  10.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |--- name >  1076.00
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.04
-|   |   |   |   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.04
-|   |   |   |   |   |   |   |   |   |   |--- name <= 1175.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 75
-|   |   |   |   |   |   |   |   |   |   |--- name >  1175.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
-|   |   |   |   |   |   |--- room_type >  1.50
-|   |   |   |   |   |   |   |--- class: 55
-|   |   |   |   |--- name >  3068.00
-|   |   |   |   |   |--- host_id <= 259487960.00
-|   |   |   |   |   |   |--- name <= 18597.50
-|   |   |   |   |   |   |   |--- reviews_per_month <= 0.02
-|   |   |   |   |   |   |   |   |--- class: 50
-|   |   |   |   |   |   |   |--- reviews_per_month >  0.02
-|   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.20
-|   |   |   |   |   |   |   |   |   |--- class: 60
-|   |   |   |   |   |   |   |   |--- reviews_per_month >  0.20
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.80
-|   |   |   |   |   |   |   |   |   |   |--- name <= 3622.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 50
-|   |   |   |   |   |   |   |   |   |   |--- name >  3622.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.80
-|   |   |   |   |   |   |   |   |   |   |--- class: 100
-|   |   |   |   |   |   |--- name >  18597.50
-|   |   |   |   |   |   |   |--- availability_365 <= 20.50
-|   |   |   |   |   |   |   |   |--- host_id <= 20347544.00
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.01
-|   |   |   |   |   |   |   |   |   |   |--- class: 179
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.01
-|   |   |   |   |   |   |   |   |   |   |--- name <= 20913.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- name >  20913.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
-|   |   |   |   |   |   |   |   |--- host_id >  20347544.00
-|   |   |   |   |   |   |   |   |   |--- name <= 43457.50
-|   |   |   |   |   |   |   |   |   |   |--- name <= 25049.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
-|   |   |   |   |   |   |   |   |   |   |--- name >  25049.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
-|   |   |   |   |   |   |   |   |   |--- name >  43457.50
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.03
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.03
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
-|   |   |   |   |   |   |   |--- availability_365 >  20.50
-|   |   |   |   |   |   |   |   |--- host_id <= 252286984.00
-|   |   |   |   |   |   |   |   |   |--- name <= 22152.00
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.07
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.07
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |--- name >  22152.00
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 244296696.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 22
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  244296696.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |--- host_id >  252286984.00
-|   |   |   |   |   |   |   |   |   |--- host_id <= 252623088.00
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month <= inf
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 149
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month >  inf
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 199
-|   |   |   |   |   |   |   |   |   |--- host_id >  252623088.00
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 255981408.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 55
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  255981408.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
-|   |   |   |   |   |--- host_id >  259487960.00
-|   |   |   |   |   |   |--- availability_365 <= 360.50
-|   |   |   |   |   |   |   |--- availability_365 <= 352.50
-|   |   |   |   |   |   |   |   |--- host_id <= 260501152.00
-|   |   |   |   |   |   |   |   |   |--- class: 35
-|   |   |   |   |   |   |   |   |--- host_id >  260501152.00
-|   |   |   |   |   |   |   |   |   |--- class: 100
-|   |   |   |   |   |   |   |--- availability_365 >  352.50
-|   |   |   |   |   |   |   |   |--- class: 100
-|   |   |   |   |   |   |--- availability_365 >  360.50
-|   |   |   |   |   |   |   |--- class: 100
-|   |   |   |--- minimum_nights >  1.50
-|   |   |   |   |--- minimum_nights <= 6.50
-|   |   |   |   |   |--- minimum_nights <= 2.50
-|   |   |   |   |   |   |--- reviews_per_month <= 0.01
-|   |   |   |   |   |   |   |--- host_id <= 31900.00
-|   |   |   |   |   |   |   |   |--- class: 130
-|   |   |   |   |   |   |   |--- host_id >  31900.00
-|   |   |   |   |   |   |   |   |--- name <= 89.00
-|   |   |   |   |   |   |   |   |   |--- class: 55
-|   |   |   |   |   |   |   |   |--- name >  89.00
-|   |   |   |   |   |   |   |   |   |--- class: 100
-|   |   |   |   |   |   |--- reviews_per_month >  0.01
-|   |   |   |   |   |   |   |--- class: 60
-|   |   |   |   |   |--- minimum_nights >  2.50
-|   |   |   |   |   |   |--- name <= 1357.00
-|   |   |   |   |   |   |   |--- reviews_per_month <= 0.04
-|   |   |   |   |   |   |   |   |--- host_id <= 679589.50
-|   |   |   |   |   |   |   |   |   |--- class: 35
-|   |   |   |   |   |   |   |   |--- host_id >  679589.50
-|   |   |   |   |   |   |   |   |   |--- room_type <= 1.50
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 <= 22.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 >  22.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
-|   |   |   |   |   |   |   |   |   |--- room_type >  1.50
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 54773050.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 100
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  54773050.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 65
-|   |   |   |   |   |   |   |--- reviews_per_month >  0.04
-|   |   |   |   |   |   |   |   |--- availability_365 <= 34.00
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.13
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights <= 3.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 38
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights >  3.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 39
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.13
-|   |   |   |   |   |   |   |   |   |   |--- class: 40
-|   |   |   |   |   |   |   |   |--- availability_365 >  34.00
-|   |   |   |   |   |   |   |   |   |--- class: 25
-|   |   |   |   |   |   |--- name >  1357.00
 |   |   |   |   |   |   |   |--- room_type <= 1.50
-|   |   |   |   |   |   |   |   |--- name <= 1915.00
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.05
-|   |   |   |   |   |   |   |   |   |   |--- class: 40
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.05
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.05
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 90
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.05
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |--- name >  1915.00
-|   |   |   |   |   |   |   |   |   |--- availability_365 <= 74.50
-|   |   |   |   |   |   |   |   |   |   |--- name <= 13656.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
-|   |   |   |   |   |   |   |   |   |   |--- name >  13656.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 23
-|   |   |   |   |   |   |   |   |   |--- availability_365 >  74.50
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 423274.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  423274.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |--- class: 50
 |   |   |   |   |   |   |   |--- room_type >  1.50
-|   |   |   |   |   |   |   |   |--- availability_365 <= 339.50
-|   |   |   |   |   |   |   |   |   |--- name <= 13430.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 22
-|   |   |   |   |   |   |   |   |   |--- name >  13430.50
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
-|   |   |   |   |   |   |   |   |--- availability_365 >  339.50
-|   |   |   |   |   |   |   |   |   |--- minimum_nights <= 3.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 30
-|   |   |   |   |   |   |   |   |   |--- minimum_nights >  3.50
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.55
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 31
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.55
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |--- minimum_nights >  6.50
-|   |   |   |   |   |--- room_type <= 1.50
-|   |   |   |   |   |   |--- minimum_nights <= 7.50
-|   |   |   |   |   |   |   |--- reviews_per_month <= 0.15
-|   |   |   |   |   |   |   |   |--- name <= 7379.00
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.02
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 321517.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 3000
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  321517.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.02
-|   |   |   |   |   |   |   |   |   |   |--- class: 56
-|   |   |   |   |   |   |   |   |--- name >  7379.00
-|   |   |   |   |   |   |   |   |   |--- availability_365 <= 179.50
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 7148936.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 60
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  7148936.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
-|   |   |   |   |   |   |   |   |   |--- availability_365 >  179.50
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 <= 195.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 100
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 >  195.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
-|   |   |   |   |   |   |   |--- reviews_per_month >  0.15
-|   |   |   |   |   |   |   |   |--- host_id <= 5691178.00
-|   |   |   |   |   |   |   |   |   |--- class: 169
-|   |   |   |   |   |   |   |   |--- host_id >  5691178.00
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.19
-|   |   |   |   |   |   |   |   |   |   |--- class: 80
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.19
-|   |   |   |   |   |   |   |   |   |   |--- name <= 2617.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 40
-|   |   |   |   |   |   |   |   |   |   |--- name >  2617.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
-|   |   |   |   |   |   |--- minimum_nights >  7.50
-|   |   |   |   |   |   |   |--- host_id <= 226408768.00
-|   |   |   |   |   |   |   |   |--- minimum_nights <= 10.50
-|   |   |   |   |   |   |   |   |   |--- name <= 808.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 35
-|   |   |   |   |   |   |   |   |   |--- name >  808.50
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 11127218.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  11127218.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
-|   |   |   |   |   |   |   |   |--- minimum_nights >  10.50
-|   |   |   |   |   |   |   |   |   |--- availability_365 <= 332.50
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 6628853.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  6628853.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
-|   |   |   |   |   |   |   |   |   |--- availability_365 >  332.50
-|   |   |   |   |   |   |   |   |   |   |--- name <= 46828.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
-|   |   |   |   |   |   |   |   |   |   |--- name >  46828.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 42
-|   |   |   |   |   |   |   |--- host_id >  226408768.00
-|   |   |   |   |   |   |   |   |--- host_id <= 226564568.00
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.21
-|   |   |   |   |   |   |   |   |   |   |--- class: 42
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.21
-|   |   |   |   |   |   |   |   |   |   |--- class: 42
-|   |   |   |   |   |   |   |   |--- host_id >  226564568.00
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.76
-|   |   |   |   |   |   |   |   |   |   |--- name <= 4589.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 48
-|   |   |   |   |   |   |   |   |   |   |--- name >  4589.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 60
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.76
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 <= 235.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 >  235.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
-|   |   |   |   |   |--- room_type >  1.50
-|   |   |   |   |   |   |--- minimum_nights <= 8.00
-|   |   |   |   |   |   |   |--- class: 32
-|   |   |   |   |   |   |--- minimum_nights >  8.00
-|   |   |   |   |   |   |   |--- minimum_nights <= 12.00
-|   |   |   |   |   |   |   |   |--- class: 25
-|   |   |   |   |   |   |   |--- minimum_nights >  12.00
-|   |   |   |   |   |   |   |   |--- availability_365 <= 3.50
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= inf
-|   |   |   |   |   |   |   |   |   |   |--- class: 27
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  inf
-|   |   |   |   |   |   |   |   |   |   |--- class: 35
-|   |   |   |   |   |   |   |   |--- availability_365 >  3.50
-|   |   |   |   |   |   |   |   |   |--- availability_365 <= 364.50
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 <= 62.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 33
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 >  62.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
-|   |   |   |   |   |   |   |   |   |--- availability_365 >  364.50
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 6543489.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 20
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  6543489.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
-|   |   |--- number_of_reviews >  1.50
-|   |   |   |--- room_type <= 1.50
-|   |   |   |   |--- host_id <= 36005188.00
-|   |   |   |   |   |--- number_of_reviews <= 67.50
-|   |   |   |   |   |   |--- minimum_nights <= 4.50
-|   |   |   |   |   |   |   |--- availability_365 <= 356.50
-|   |   |   |   |   |   |   |   |--- host_id <= 35320366.00
-|   |   |   |   |   |   |   |   |   |--- host_id <= 8751552.50
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 10.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 23
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews >  10.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 28
-|   |   |   |   |   |   |   |   |   |--- host_id >  8751552.50
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 8887172.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  8887172.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 25
-|   |   |   |   |   |   |   |   |--- host_id >  35320366.00
-|   |   |   |   |   |   |   |   |   |--- availability_365 <= 3.00
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 11.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews >  11.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 70
-|   |   |   |   |   |   |   |   |   |--- availability_365 >  3.00
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights <= 2.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights >  2.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 75
-|   |   |   |   |   |   |   |--- availability_365 >  356.50
-|   |   |   |   |   |   |   |   |--- number_of_reviews <= 19.50
-|   |   |   |   |   |   |   |   |   |--- minimum_nights <= 3.50
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights <= 1.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights >  1.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
-|   |   |   |   |   |   |   |   |   |--- minimum_nights >  3.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 55
-|   |   |   |   |   |   |   |   |--- number_of_reviews >  19.50
-|   |   |   |   |   |   |   |   |   |--- host_id <= 166371.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 80
-|   |   |   |   |   |   |   |   |   |--- host_id >  166371.50
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.47
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.47
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
-|   |   |   |   |   |   |--- minimum_nights >  4.50
-|   |   |   |   |   |   |   |--- name <= 216.00
-|   |   |   |   |   |   |   |   |--- class: 42
-|   |   |   |   |   |   |   |--- name >  216.00
-|   |   |   |   |   |   |   |   |--- host_id <= 9999997.50
-|   |   |   |   |   |   |   |   |   |--- host_id <= 9806969.50
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 28.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 21
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews >  28.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
-|   |   |   |   |   |   |   |   |   |--- host_id >  9806969.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 40
-|   |   |   |   |   |   |   |   |--- host_id >  9999997.50
-|   |   |   |   |   |   |   |   |   |--- host_id <= 25243486.00
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 17154001.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  17154001.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
-|   |   |   |   |   |   |   |   |   |--- host_id >  25243486.00
-|   |   |   |   |   |   |   |   |   |   |--- name <= 7367.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- name >  7367.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
-|   |   |   |   |   |--- number_of_reviews >  67.50
-|   |   |   |   |   |   |--- host_id <= 35478918.00
-|   |   |   |   |   |   |   |--- name <= 46662.00
-|   |   |   |   |   |   |   |   |--- name <= 462.00
-|   |   |   |   |   |   |   |   |   |--- host_id <= 23922225.00
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 7819399.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 59
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  7819399.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |--- host_id >  23922225.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 60
-|   |   |   |   |   |   |   |   |--- name >  462.00
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 1.76
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights <= 26.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 18
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights >  26.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 35
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  1.76
-|   |   |   |   |   |   |   |   |   |   |--- name <= 955.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 65
-|   |   |   |   |   |   |   |   |   |   |--- name >  955.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 35
-|   |   |   |   |   |   |   |--- name >  46662.00
-|   |   |   |   |   |   |   |   |--- name <= 47729.00
-|   |   |   |   |   |   |   |   |   |--- name <= 47466.00
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 16068343.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  16068343.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |--- name >  47466.00
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 95.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 60
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews >  95.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 60
-|   |   |   |   |   |   |   |   |--- name >  47729.00
-|   |   |   |   |   |   |   |   |   |--- class: 50
-|   |   |   |   |   |   |--- host_id >  35478918.00
-|   |   |   |   |   |   |   |--- reviews_per_month <= 3.74
-|   |   |   |   |   |   |   |   |--- class: 155
-|   |   |   |   |   |   |   |--- reviews_per_month >  3.74
-|   |   |   |   |   |   |   |   |--- class: 155
-|   |   |   |   |--- host_id >  36005188.00
-|   |   |   |   |   |--- minimum_nights <= 3.50
-|   |   |   |   |   |   |--- host_id <= 241879960.00
-|   |   |   |   |   |   |   |--- availability_365 <= 287.50
-|   |   |   |   |   |   |   |   |--- host_id <= 227663664.00
-|   |   |   |   |   |   |   |   |   |--- host_id <= 219764160.00
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 219482200.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 41
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  219482200.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |--- host_id >  219764160.00
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 38.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews >  38.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |--- host_id >  227663664.00
-|   |   |   |   |   |   |   |   |   |--- host_id <= 227768168.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 55
-|   |   |   |   |   |   |   |   |   |--- host_id >  227768168.00
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 <= 22.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 >  22.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
-|   |   |   |   |   |   |   |--- availability_365 >  287.50
-|   |   |   |   |   |   |   |   |--- number_of_reviews <= 26.50
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 21.50
-|   |   |   |   |   |   |   |   |   |   |--- name <= 47840.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 23
-|   |   |   |   |   |   |   |   |   |   |--- name >  47840.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 65
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews >  21.50
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 24.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews >  24.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |--- number_of_reviews >  26.50
-|   |   |   |   |   |   |   |   |   |--- host_id <= 47300138.00
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 126.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews >  126.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 48
-|   |   |   |   |   |   |   |   |   |--- host_id >  47300138.00
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 48178148.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 47
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  48178148.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
-|   |   |   |   |   |   |--- host_id >  241879960.00
-|   |   |   |   |   |   |   |--- availability_365 <= 226.00
-|   |   |   |   |   |   |   |   |--- availability_365 <= 52.00
-|   |   |   |   |   |   |   |   |   |--- availability_365 <= 22.00
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |--- availability_365 >  22.00
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights <= 1.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 47
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights >  1.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |--- availability_365 >  52.00
-|   |   |   |   |   |   |   |   |   |--- host_id <= 258748208.00
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights <= 1.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights >  1.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
-|   |   |   |   |   |   |   |   |   |--- host_id >  258748208.00
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 3.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 65
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews >  3.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |--- availability_365 >  226.00
-|   |   |   |   |   |   |   |   |--- host_id <= 244936776.00
-|   |   |   |   |   |   |   |   |   |--- host_id <= 244366016.00
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 242999328.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 100
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  242999328.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |--- host_id >  244366016.00
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 6.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 100
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews >  6.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |--- host_id >  244936776.00
-|   |   |   |   |   |   |   |   |   |--- host_id <= 258230336.00
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 257002144.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  257002144.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 48
-|   |   |   |   |   |   |   |   |   |--- host_id >  258230336.00
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 3.22
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month >  3.22
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 79
-|   |   |   |   |   |--- minimum_nights >  3.50
-|   |   |   |   |   |   |--- availability_365 <= 360.50
-|   |   |   |   |   |   |   |--- reviews_per_month <= 4.52
-|   |   |   |   |   |   |   |   |--- name <= 47247.50
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.56
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 225233616.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  225233616.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.56
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 <= 356.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 >  356.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 55
-|   |   |   |   |   |   |   |   |--- name >  47247.50
-|   |   |   |   |   |   |   |   |   |--- minimum_nights <= 8.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 45
-|   |   |   |   |   |   |   |   |   |--- minimum_nights >  8.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 30
-|   |   |   |   |   |   |   |--- reviews_per_month >  4.52
-|   |   |   |   |   |   |   |   |--- number_of_reviews <= 16.50
-|   |   |   |   |   |   |   |   |   |--- class: 50
-|   |   |   |   |   |   |   |   |--- number_of_reviews >  16.50
-|   |   |   |   |   |   |   |   |   |--- class: 50
-|   |   |   |   |   |   |--- availability_365 >  360.50
-|   |   |   |   |   |   |   |--- number_of_reviews <= 17.00
-|   |   |   |   |   |   |   |   |--- minimum_nights <= 8.00
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 6.50
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 <= 364.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 72
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 >  364.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews >  6.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 55
-|   |   |   |   |   |   |   |   |--- minimum_nights >  8.00
-|   |   |   |   |   |   |   |   |   |--- availability_365 <= 364.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 50
-|   |   |   |   |   |   |   |   |   |--- availability_365 >  364.50
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights <= 13.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 57
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights >  13.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 34
-|   |   |   |   |   |   |   |--- number_of_reviews >  17.00
-|   |   |   |   |   |   |   |   |--- host_id <= 192369080.00
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 29.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 65
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews >  29.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 65
-|   |   |   |   |   |   |   |   |--- host_id >  192369080.00
-|   |   |   |   |   |   |   |   |   |--- class: 65
-|   |   |   |--- room_type >  1.50
-|   |   |   |   |--- host_id <= 251834920.00
-|   |   |   |   |   |--- minimum_nights <= 1.50
-|   |   |   |   |   |   |--- host_id <= 247629168.00
-|   |   |   |   |   |   |   |--- reviews_per_month <= 0.70
-|   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.61
-|   |   |   |   |   |   |   |   |   |--- name <= 37251.50
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 <= 70.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 >  70.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
-|   |   |   |   |   |   |   |   |   |--- name >  37251.50
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 <= 44.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 >  44.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |--- reviews_per_month >  0.61
-|   |   |   |   |   |   |   |   |   |--- host_id <= 26831364.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 26
-|   |   |   |   |   |   |   |   |   |--- host_id >  26831364.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 75
-|   |   |   |   |   |   |   |--- reviews_per_month >  0.70
-|   |   |   |   |   |   |   |   |--- name <= 2821.00
-|   |   |   |   |   |   |   |   |   |--- class: 65
-|   |   |   |   |   |   |   |   |--- name >  2821.00
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 6.00
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 207367376.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  207367376.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 24
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews >  6.00
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 1.69
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month >  1.69
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
-|   |   |   |   |   |   |--- host_id >  247629168.00
-|   |   |   |   |   |   |   |--- reviews_per_month <= 1.29
-|   |   |   |   |   |   |   |   |--- class: 34
-|   |   |   |   |   |   |   |--- reviews_per_month >  1.29
 |   |   |   |   |   |   |   |   |--- class: 75
-|   |   |   |   |   |--- minimum_nights >  1.50
-|   |   |   |   |   |   |--- reviews_per_month <= 3.59
-|   |   |   |   |   |   |   |--- availability_365 <= 190.00
-|   |   |   |   |   |   |   |   |--- host_id <= 141099328.00
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 74.50
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.14
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.14
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews >  74.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 35
-|   |   |   |   |   |   |   |   |--- host_id >  141099328.00
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 27.50
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 223958664.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  223958664.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 25
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews >  27.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 25
-|   |   |   |   |   |   |   |--- availability_365 >  190.00
-|   |   |   |   |   |   |   |   |--- reviews_per_month <= 2.33
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 1.82
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 215683464.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  215683464.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 39
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  1.82
-|   |   |   |   |   |   |   |   |   |   |--- class: 30
-|   |   |   |   |   |   |   |   |--- reviews_per_month >  2.33
-|   |   |   |   |   |   |   |   |   |--- class: 25
-|   |   |   |   |   |   |--- reviews_per_month >  3.59
-|   |   |   |   |   |   |   |--- class: 49
-|   |   |   |   |--- host_id >  251834920.00
-|   |   |   |   |   |--- reviews_per_month <= 4.22
-|   |   |   |   |   |   |--- availability_365 <= 218.50
-|   |   |   |   |   |   |   |--- class: 60
-|   |   |   |   |   |   |--- availability_365 >  218.50
-|   |   |   |   |   |   |   |--- class: 49
-|   |   |   |   |   |--- reviews_per_month >  4.22
-|   |   |   |   |   |   |--- class: 85
-|   |--- host_id >  260613952.00
-|   |   |--- host_id <= 261770448.00
-|   |   |   |--- availability_365 <= 260.00
-|   |   |   |   |--- minimum_nights <= 1.50
-|   |   |   |   |   |--- availability_365 <= 48.50
-|   |   |   |   |   |   |--- host_id <= 261689000.00
-|   |   |   |   |   |   |   |--- number_of_reviews <= 1.50
-|   |   |   |   |   |   |   |   |--- class: 105
-|   |   |   |   |   |   |   |--- number_of_reviews >  1.50
-|   |   |   |   |   |   |   |   |--- class: 105
-|   |   |   |   |   |   |--- host_id >  261689000.00
-|   |   |   |   |   |   |   |--- class: 100
-|   |   |   |   |   |--- availability_365 >  48.50
-|   |   |   |   |   |   |--- host_id <= 260754576.00
-|   |   |   |   |   |   |   |--- class: 60
-|   |   |   |   |   |   |--- host_id >  260754576.00
-|   |   |   |   |   |   |   |--- reviews_per_month <= 1.90
-|   |   |   |   |   |   |   |   |--- class: 75
-|   |   |   |   |   |   |   |--- reviews_per_month >  1.90
-|   |   |   |   |   |   |   |   |--- number_of_reviews <= 2.50
-|   |   |   |   |   |   |   |   |   |--- class: 69
-|   |   |   |   |   |   |   |   |--- number_of_reviews >  2.50
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 6.45
-|   |   |   |   |   |   |   |   |   |   |--- class: 62
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  6.45
-|   |   |   |   |   |   |   |   |   |   |--- class: 48
-|   |   |   |   |--- minimum_nights >  1.50
-|   |   |   |   |   |--- host_id <= 260826192.00
-|   |   |   |   |   |   |--- class: 400
-|   |   |   |   |   |--- host_id >  260826192.00
-|   |   |   |   |   |   |--- host_id <= 260893192.00
-|   |   |   |   |   |   |   |--- class: 75
-|   |   |   |   |   |   |--- host_id >  260893192.00
-|   |   |   |   |   |   |   |--- number_of_reviews <= 1.00
-|   |   |   |   |   |   |   |   |--- class: 60
-|   |   |   |   |   |   |   |--- number_of_reviews >  1.00
-|   |   |   |   |   |   |   |   |--- class: 35
-|   |   |   |--- availability_365 >  260.00
-|   |   |   |   |--- name <= 44095.50
-|   |   |   |   |   |--- reviews_per_month <= 3.52
-|   |   |   |   |   |   |--- reviews_per_month <= 0.81
-|   |   |   |   |   |   |   |--- class: 25
-|   |   |   |   |   |   |--- reviews_per_month >  0.81
-|   |   |   |   |   |   |   |--- name <= 12721.00
-|   |   |   |   |   |   |   |   |--- class: 100
-|   |   |   |   |   |   |   |--- name >  12721.00
-|   |   |   |   |   |   |   |   |--- availability_365 <= 357.00
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= inf
-|   |   |   |   |   |   |   |   |   |   |--- class: 100
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  inf
-|   |   |   |   |   |   |   |   |   |   |--- class: 100
-|   |   |   |   |   |   |   |   |--- availability_365 >  357.00
-|   |   |   |   |   |   |   |   |   |--- class: 100
-|   |   |   |   |   |--- reviews_per_month >  3.52
-|   |   |   |   |   |   |--- class: 35
-|   |   |   |   |--- name >  44095.50
-|   |   |   |   |   |--- class: 25
-|   |   |--- host_id >  261770448.00
-|   |   |   |--- minimum_nights <= 14.50
-|   |   |   |   |--- name <= 118.50
-|   |   |   |   |   |--- class: 50
-|   |   |   |   |--- name >  118.50
-|   |   |   |   |   |--- name <= 188.50
-|   |   |   |   |   |   |--- class: 55
-|   |   |   |   |   |--- name >  188.50
-|   |   |   |   |   |   |--- reviews_per_month <= 1.56
-|   |   |   |   |   |   |   |--- availability_365 <= 43.50
-|   |   |   |   |   |   |   |   |--- host_id <= 263694224.00
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.84
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 <= 12.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 125
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 >  12.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.84
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 <= 10.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 >  10.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 40
-|   |   |   |   |   |   |   |   |--- host_id >  263694224.00
-|   |   |   |   |   |   |   |   |   |--- host_id <= 273266288.00
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights <= 1.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- minimum_nights >  1.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |--- host_id >  273266288.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 28
-|   |   |   |   |   |   |   |--- availability_365 >  43.50
-|   |   |   |   |   |   |   |   |--- host_id <= 272021920.00
-|   |   |   |   |   |   |   |   |   |--- host_id <= 262682760.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 35
-|   |   |   |   |   |   |   |   |   |--- host_id >  262682760.00
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 264486648.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  264486648.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
-|   |   |   |   |   |   |   |   |--- host_id >  272021920.00
-|   |   |   |   |   |   |   |   |   |--- class: 50
-|   |   |   |   |   |   |--- reviews_per_month >  1.56
-|   |   |   |   |   |   |   |--- name <= 32169.00
-|   |   |   |   |   |   |   |   |--- availability_365 <= 360.50
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 2.50
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 268144072.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  268144072.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews >  2.50
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 <= 5.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 >  5.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
-|   |   |   |   |   |   |   |   |--- availability_365 >  360.50
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 5.00
-|   |   |   |   |   |   |   |   |   |   |--- name <= 16365.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- name >  16365.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 79
-|   |   |   |   |   |   |   |   |   |--- number_of_reviews >  5.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 76
-|   |   |   |   |   |   |   |--- name >  32169.00
-|   |   |   |   |   |   |   |   |--- room_type <= 1.50
-|   |   |   |   |   |   |   |   |   |--- availability_365 <= 119.50
-|   |   |   |   |   |   |   |   |   |   |--- name <= 33533.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 89
-|   |   |   |   |   |   |   |   |   |   |--- name >  33533.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
-|   |   |   |   |   |   |   |   |   |--- availability_365 >  119.50
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 2.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
-|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews >  2.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
-|   |   |   |   |   |   |   |   |--- room_type >  1.50
-|   |   |   |   |   |   |   |   |   |--- name <= 37261.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 75
-|   |   |   |   |   |   |   |   |   |--- name >  37261.00
-|   |   |   |   |   |   |   |   |   |   |--- name <= 42133.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- name >  42133.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 70
-|   |   |   |--- minimum_nights >  14.50
-|   |   |   |   |--- name <= 46906.00
-|   |   |   |   |   |--- host_id <= 266777928.00
-|   |   |   |   |   |   |--- host_id <= 266614096.00
-|   |   |   |   |   |   |   |--- name <= 41567.50
-|   |   |   |   |   |   |   |   |--- host_id <= 266374136.00
-|   |   |   |   |   |   |   |   |   |--- minimum_nights <= 29.00
-|   |   |   |   |   |   |   |   |   |   |--- name <= 22774.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 150
-|   |   |   |   |   |   |   |   |   |   |--- name >  22774.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 100
-|   |   |   |   |   |   |   |   |   |--- minimum_nights >  29.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 975
-|   |   |   |   |   |   |   |   |--- host_id >  266374136.00
-|   |   |   |   |   |   |   |   |   |--- class: 40
-|   |   |   |   |   |   |   |--- name >  41567.50
-|   |   |   |   |   |   |   |   |--- class: 65
-|   |   |   |   |   |   |--- host_id >  266614096.00
-|   |   |   |   |   |   |   |--- name <= 39890.50
-|   |   |   |   |   |   |   |   |--- availability_365 <= 362.50
-|   |   |   |   |   |   |   |   |   |--- availability_365 <= 360.50
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 <= 332.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 89
-|   |   |   |   |   |   |   |   |   |   |--- availability_365 >  332.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 88
-|   |   |   |   |   |   |   |   |   |--- availability_365 >  360.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 89
-|   |   |   |   |   |   |   |   |--- availability_365 >  362.50
-|   |   |   |   |   |   |   |   |   |--- class: 88
-|   |   |   |   |   |   |   |--- name >  39890.50
-|   |   |   |   |   |   |   |   |--- class: 89
-|   |   |   |   |   |--- host_id >  266777928.00
-|   |   |   |   |   |   |--- room_type <= 1.50
-|   |   |   |   |   |   |   |--- host_id <= 269489984.00
-|   |   |   |   |   |   |   |   |--- host_id <= 268825184.00
-|   |   |   |   |   |   |   |   |   |--- availability_365 <= 341.50
-|   |   |   |   |   |   |   |   |   |   |--- host_id <= 268401448.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |   |--- host_id >  268401448.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 78
-|   |   |   |   |   |   |   |   |   |--- availability_365 >  341.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 80
-|   |   |   |   |   |   |   |   |--- host_id >  268825184.00
+|   |   |--- minimum_nights >  1.50
+|   |   |   |--- minimum_nights <= 29.00
+|   |   |   |   |--- minimum_nights <= 2.50
+|   |   |   |   |   |--- number_of_reviews <= 0.50
+|   |   |   |   |   |   |--- class: 100
+|   |   |   |   |   |--- number_of_reviews >  0.50
+|   |   |   |   |   |   |--- number_of_reviews <= 23.50
+|   |   |   |   |   |   |   |--- host_id <= 60014374.00
+|   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.07
 |   |   |   |   |   |   |   |   |   |--- class: 60
-|   |   |   |   |   |   |   |--- host_id >  269489984.00
-|   |   |   |   |   |   |   |   |--- class: 80
+|   |   |   |   |   |   |   |   |--- reviews_per_month >  0.07
+|   |   |   |   |   |   |   |   |   |--- room_type <= 1.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 99
+|   |   |   |   |   |   |   |   |   |--- room_type >  1.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 27
+|   |   |   |   |   |   |   |--- host_id >  60014374.00
+|   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.05
+|   |   |   |   |   |   |   |   |   |--- class: 89
+|   |   |   |   |   |   |   |   |--- reviews_per_month >  0.05
+|   |   |   |   |   |   |   |   |   |--- class: 70
+|   |   |   |   |   |   |--- number_of_reviews >  23.50
+|   |   |   |   |   |   |   |--- host_id <= 165893.50
+|   |   |   |   |   |   |   |   |--- class: 55
+|   |   |   |   |   |   |   |--- host_id >  165893.50
+|   |   |   |   |   |   |   |   |--- availability_365 <= 358.50
+|   |   |   |   |   |   |   |   |   |--- class: 50
+|   |   |   |   |   |   |   |   |--- availability_365 >  358.50
+|   |   |   |   |   |   |   |   |   |--- class: 75
+|   |   |   |   |--- minimum_nights >  2.50
+|   |   |   |   |   |--- name <= 3759.00
+|   |   |   |   |   |   |--- host_id <= 7193155.00
+|   |   |   |   |   |   |   |--- class: 169
+|   |   |   |   |   |   |--- host_id >  7193155.00
+|   |   |   |   |   |   |   |--- reviews_per_month <= 0.33
+|   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.12
+|   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 1.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 80
+|   |   |   |   |   |   |   |   |   |--- number_of_reviews >  1.50
+|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 2.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 599
+|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews >  2.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 799
+|   |   |   |   |   |   |   |   |--- reviews_per_month >  0.12
+|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.23
+|   |   |   |   |   |   |   |   |   |   |--- class: 54
+|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.23
+|   |   |   |   |   |   |   |   |   |   |--- name <= 636.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 45
+|   |   |   |   |   |   |   |   |   |   |--- name >  636.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- reviews_per_month >  0.33
+|   |   |   |   |   |   |   |   |--- number_of_reviews <= 6.00
+|   |   |   |   |   |   |   |   |   |--- class: 30
+|   |   |   |   |   |   |   |   |--- number_of_reviews >  6.00
+|   |   |   |   |   |   |   |   |   |--- class: 55
+|   |   |   |   |   |--- name >  3759.00
+|   |   |   |   |   |   |--- room_type <= 1.50
+|   |   |   |   |   |   |   |--- reviews_per_month <= 1.75
+|   |   |   |   |   |   |   |   |--- minimum_nights <= 3.50
+|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.05
+|   |   |   |   |   |   |   |   |   |   |--- class: 80
+|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.05
+|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 3.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews >  3.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |--- minimum_nights >  3.50
+|   |   |   |   |   |   |   |   |   |--- host_id <= 21744236.00
+|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 60
+|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- host_id >  21744236.00
+|   |   |   |   |   |   |   |   |   |   |--- host_id <= 24775966.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 50
+|   |   |   |   |   |   |   |   |   |   |--- host_id >  24775966.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |--- reviews_per_month >  1.75
+|   |   |   |   |   |   |   |   |--- class: 50
 |   |   |   |   |   |   |--- room_type >  1.50
-|   |   |   |   |   |   |   |--- name <= 7902.50
-|   |   |   |   |   |   |   |   |--- host_id <= 268116208.00
-|   |   |   |   |   |   |   |   |   |--- class: 32
-|   |   |   |   |   |   |   |   |--- host_id >  268116208.00
-|   |   |   |   |   |   |   |   |   |--- class: 45
-|   |   |   |   |   |   |   |--- name >  7902.50
-|   |   |   |   |   |   |   |   |--- class: 35
-|   |   |   |   |--- name >  46906.00
-|   |   |   |   |   |--- minimum_nights <= 60.50
-|   |   |   |   |   |   |--- host_id <= 268102984.00
-|   |   |   |   |   |   |   |--- class: 55
-|   |   |   |   |   |   |--- host_id >  268102984.00
-|   |   |   |   |   |   |   |--- class: 47
-|   |   |   |   |   |--- minimum_nights >  60.50
-|   |   |   |   |   |   |--- class: 55
+|   |   |   |   |   |   |   |--- minimum_nights <= 3.50
+|   |   |   |   |   |   |   |   |--- name <= 7661.00
+|   |   |   |   |   |   |   |   |   |--- class: 39
+|   |   |   |   |   |   |   |   |--- name >  7661.00
+|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 1.62
+|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 13.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 36
+|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews >  13.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 36
+|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  1.62
+|   |   |   |   |   |   |   |   |   |   |--- availability_365 <= 360.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 30
+|   |   |   |   |   |   |   |   |   |   |--- availability_365 >  360.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 30
+|   |   |   |   |   |   |   |--- minimum_nights >  3.50
+|   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.32
+|   |   |   |   |   |   |   |   |   |--- name <= 23423.00
+|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 29
+|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- name >  23423.00
+|   |   |   |   |   |   |   |   |   |   |--- minimum_nights <= 17.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- minimum_nights >  17.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 337
+|   |   |   |   |   |   |   |   |--- reviews_per_month >  0.32
+|   |   |   |   |   |   |   |   |   |--- class: 30
+|   |   |   |--- minimum_nights >  29.00
+|   |   |   |   |--- reviews_per_month <= 2.04
+|   |   |   |   |   |--- reviews_per_month <= 0.23
+|   |   |   |   |   |   |--- reviews_per_month <= 0.11
+|   |   |   |   |   |   |   |--- name <= 40768.50
+|   |   |   |   |   |   |   |   |--- room_type <= 1.50
+|   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 1.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 57
+|   |   |   |   |   |   |   |   |   |--- number_of_reviews >  1.50
+|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews <= 3.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 150
+|   |   |   |   |   |   |   |   |   |   |--- number_of_reviews >  3.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 125
+|   |   |   |   |   |   |   |   |--- room_type >  1.50
+|   |   |   |   |   |   |   |   |   |--- host_id <= 67947653.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 20
+|   |   |   |   |   |   |   |   |   |--- host_id >  67947653.00
+|   |   |   |   |   |   |   |   |   |   |--- name <= 22060.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 30
+|   |   |   |   |   |   |   |   |   |   |--- name >  22060.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 55
+|   |   |   |   |   |   |   |--- name >  40768.50
+|   |   |   |   |   |   |   |   |--- name <= 45665.00
+|   |   |   |   |   |   |   |   |   |--- class: 100
+|   |   |   |   |   |   |   |   |--- name >  45665.00
+|   |   |   |   |   |   |   |   |   |--- room_type <= 1.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 100
+|   |   |   |   |   |   |   |   |   |--- room_type >  1.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 36
+|   |   |   |   |   |   |--- reviews_per_month >  0.11
+|   |   |   |   |   |   |   |--- host_id <= 3680659.50
+|   |   |   |   |   |   |   |   |--- name <= 28780.50
+|   |   |   |   |   |   |   |   |   |--- room_type <= 1.50
+|   |   |   |   |   |   |   |   |   |   |--- availability_365 <= 361.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 39
+|   |   |   |   |   |   |   |   |   |   |--- availability_365 >  361.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 40
+|   |   |   |   |   |   |   |   |   |--- room_type >  1.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 28
+|   |   |   |   |   |   |   |   |--- name >  28780.50
+|   |   |   |   |   |   |   |   |   |--- class: 200
+|   |   |   |   |   |   |   |--- host_id >  3680659.50
+|   |   |   |   |   |   |   |   |--- room_type <= 1.50
+|   |   |   |   |   |   |   |   |   |--- name <= 40473.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 50
+|   |   |   |   |   |   |   |   |   |--- name >  40473.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 50
+|   |   |   |   |   |   |   |   |--- room_type >  1.50
+|   |   |   |   |   |   |   |   |   |--- class: 34
+|   |   |   |   |   |--- reviews_per_month >  0.23
+|   |   |   |   |   |   |--- availability_365 <= 361.50
+|   |   |   |   |   |   |   |--- class: 45
+|   |   |   |   |   |   |--- availability_365 >  361.50
+|   |   |   |   |   |   |   |--- availability_365 <= 363.50
+|   |   |   |   |   |   |   |   |--- class: 50
+|   |   |   |   |   |   |   |--- availability_365 >  363.50
+|   |   |   |   |   |   |   |   |--- host_id <= 9750952.00
+|   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.34
+|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.62
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.62
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 52
+|   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.34
+|   |   |   |   |   |   |   |   |   |   |--- minimum_nights <= 60.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 35
+|   |   |   |   |   |   |   |   |   |   |--- minimum_nights >  60.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 80
+|   |   |   |   |   |   |   |   |--- host_id >  9750952.00
+|   |   |   |   |   |   |   |   |   |--- name <= 24562.00
+|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month <= 0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- reviews_per_month >  0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- name >  24562.00
+|   |   |   |   |   |   |   |   |   |   |--- name <= 45205.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- name >  45205.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- reviews_per_month >  2.04
+|   |   |   |   |   |--- host_id <= 201417728.00
+|   |   |   |   |   |   |--- reviews_per_month <= 3.15
+|   |   |   |   |   |   |   |--- minimum_nights <= 65.00
+|   |   |   |   |   |   |   |   |--- host_id <= 200601128.00
+|   |   |   |   |   |   |   |   |   |--- availability_365 <= 361.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 65
+|   |   |   |   |   |   |   |   |   |--- availability_365 >  361.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 65
+|   |   |   |   |   |   |   |   |--- host_id >  200601128.00
+|   |   |   |   |   |   |   |   |   |--- class: 65
+|   |   |   |   |   |   |   |--- minimum_nights >  65.00
+|   |   |   |   |   |   |   |   |--- class: 103
+|   |   |   |   |   |   |--- reviews_per_month >  3.15
+|   |   |   |   |   |   |   |--- class: 65
+|   |   |   |   |   |--- host_id >  201417728.00
+|   |   |   |   |   |   |--- class: 65

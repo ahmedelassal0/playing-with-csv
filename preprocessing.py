@@ -1,5 +1,7 @@
 import pandas as pd
 from config import main_df, clean_df
+
+
 def getPeakWorkTime():
     most_repeated_year = clean_df['last_review'].dt.year.mode().values[0]
     most_repeated_month = clean_df['last_review'].dt.month.mode().values[0]
@@ -50,6 +52,7 @@ def preprocessAvailability():
     # fill values that is more than 365 with 365
     clean_df.loc[clean_df['availability_365'] > 365, 'availability_365'] = 365
 
+
 # def preprocessHostNames():
 #     global clean_df
 #     clean_df = clean_df.groupby('host_name')['host_id'].agg(lambda x: x.iloc[0]).reset_index()
@@ -63,3 +66,6 @@ def preprocessing():
     preprocessReviewsPerMonth()
     preprocessAvailability()
     # preprocessHostNames()
+
+
+preprocessing()

@@ -4,7 +4,7 @@ from config import clean_df
 
 
 def visualizeHostname():
-    clean_df['host_name'].value_counts()[0:10].plot(kind='bar')
+    clean_df['host_name'].value_counts()[0:10].plot(kind='bar', rot=0)
 
     plt.xlabel('names')
     plt.ylabel('counts')
@@ -43,6 +43,7 @@ def visualizePrice():
 def visualizeAvailabililty():
     plt.boxplot(clean_df['availability_365'])
     plt.ylabel('available days')
+    plt.xlabel("rooms", rot=0)
     plt.show()
 
 
@@ -55,9 +56,13 @@ def visualizePriceRoomType():
     # Show the chart
     plt.show()
 
+
 def visualize():
     visualizeHostname()
     visualizeRoomType()
     visualizePrice()
     visualizeAvailabililty()
     visualizePriceRoomType()
+
+
+visualize()
